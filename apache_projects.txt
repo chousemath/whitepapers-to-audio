@@ -1,0 +1,1460 @@
+apache .net ant library
+apache abdera (in the attic)
+apache accumulo
+apache ace (in the attic)
+apache activemq
+apache airavata
+apache airflow
+apache allura
+apache amaterasu (incubating)
+apache ambari
+apache anakia
+apache annotator (incubating)
+apache ant
+apache antunit
+apache any23
+apache apex
+apache archiva
+apache aries
+apache arrow
+apache asterixdb
+apache atlas
+apache aurora
+apache avro
+apache axiom
+apache axis2
+apache bahir
+apache batchee (incubating)
+apache batik
+apache beam
+apache beehive (in the attic)
+apache bigtop
+apache bloodhound
+apache bookkeeper
+apache brooklyn
+apache brpc (incubating)
+apache buildr
+apache bval
+apache calcite
+apache camel
+apache carbondata
+apache cassandra
+apache cayenne
+apache celix
+apache chainsaw
+apache chemistry
+apache chukwa
+apache clerezza
+apache click (in the attic)
+apache cloudstack
+apache cocoon
+apache commons bcel
+apache commons beanutils
+apache commons bsf
+apache commons chain
+apache commons cli
+apache commons codec
+apache commons collections
+apache commons compress
+apache commons configuration
+apache commons daemon
+apache commons dbcp
+apache commons dbutils
+apache commons digester
+apache commons discovery
+apache commons el
+apache commons email
+apache commons exec
+apache commons fileupload
+apache commons functor
+apache commons httpclient
+apache commons io
+apache commons jci
+apache commons jcs
+apache commons jelly
+apache commons jexl
+apache commons jxpath
+apache commons lang
+apache commons launcher
+apache commons logging
+apache commons math
+apache commons modeler
+apache commons net
+apache commons ognl
+apache commons pool
+apache commons proxy
+apache commons rng
+apache commons scxml
+apache commons validator
+apache commons vfs
+apache commons weaver
+apache community development
+apache compress ant library
+apache continuum (in the attic)
+apache cordova
+apache couchdb
+apache crail (incubating)
+apache crunch
+apache ctakes
+apache curator
+apache cxf
+apache daffodil (incubating)
+apache datafu
+apache datafu (incubating)
+apache datasketches (incubating)
+apache deltacloud (in the attic)
+apache deltaspike
+apache derby
+apache devicemap (in the attic)
+apache directmemory (in the attic)
+apache directory
+apache directory server
+apache directory studio
+apache dlab (incubating)
+apache dolphinscheduler (incubating)
+apache doris (incubating)
+apache drat
+apache drill
+apache druid (incubating)
+apache dubbo
+apache eagle
+apache echarts (incubating)
+apache ecs (in the attic)
+apache edgent (incubating)
+apache empire-db
+apache esme (in the attic)
+apache etch (in the attic)
+apache excalibur (in the attic)
+apache falcon
+apache felix
+apache fineract
+apache flagon (incubating)
+apache flex
+apache flink
+apache flume
+apache fluo
+apache fluo recipes
+apache fluo yarn
+apache fop
+apache forrest
+apache fortress
+apache freemarker
+apache freemarker (incubating)
+apache ftpserver
+apache geode
+apache geronimo
+apache giraph
+apache gobblin (incubating)
+apache gora
+apache griffin
+apache groovy
+apache guacamole
+apache gump
+apache hadoop
+apache hama
+apache harmony (in the attic)
+apache hawq
+apache helix
+apache heron (incubating)
+apache hive
+apache hivemall (incubating)
+apache hivemind (in the attic)
+apache http server
+apache httpcomponents client
+apache httpcomponents core
+apache hudi (incubating)
+apache iceberg (incubating)
+apache ignite
+apache impala
+apache iotdb (incubating)
+apache isis
+apache ivy
+apache ivyde
+apache jackrabbit
+apache jakarta cactus (in the attic)
+apache james
+apache jclouds
+apache jena
+apache jmeter
+apache johnzon
+apache joshua
+apache jspwiki
+apache juneau
+apache kafka
+apache karaf
+apache kerby
+apache kibble
+apache knox
+apache kudu
+apache kylin
+apache labs
+apache lens
+apache lenya (in the attic)
+apache libcloud
+apache livy (incubating)
+apache log4cxx
+apache log4j 2
+apache log4net
+apache log4php
+apache lucene core
+apache lucene.net
+apache lucy (in the attic)
+apache madlib
+apache mahout
+apache manifoldcf
+apache marmotta
+apache marvin-ai (incubating)
+apache maven
+apache maven doxia
+apache mesos
+apache metamodel
+apache metron
+apache milagro (incubating)
+apache mina
+apache mnemonic
+apache mod_ftp
+apache mod_perl
+apache mrunit (in the attic)
+apache mxnet (incubating)
+apache myfaces
+apache mynewt
+apache myriad (incubating)
+apache nemo (incubating)
+apache netbeans
+apache nifi
+apache nutch
+apache ode (in the attic)
+apache ofbiz
+apache olingo
+apache oltu - parent (in the attic)
+apache omid (incubating)
+apache oodt
+apache oozie
+apache open climate workbench
+apache openjpa
+apache openmeetings
+apache opennlp
+apache openoffice
+apache openwebbeans
+apache openwhisk
+apache orc
+apache oro (in the attic)
+apache pagespeed (incubating)
+apache parquet
+apache pdfbox
+apache phoenix
+apache pig
+apache pinot (incubating)
+apache pivot
+apache plc4x
+apache poi
+apache polygene (in the attic)
+apache pony mail (incubating)
+apache portable runtime
+apache portals
+apache predictionio
+apache props ant library
+apache pulsar
+apache qpid
+apache ranger
+apache rat
+apache ratis (incubating)
+apache reef
+apache regexp (in the attic)
+apache reusable dialog components (rdc) taglib
+apache river
+apache rivet
+apache rocketmq
+apache roller
+apache royale
+apache rya (incubating)
+apache s2graph (incubating)
+apache samoa (incubating)
+apache samza
+apache sandesha2
+apache santuario
+apache scout
+apache sdap (incubating)
+apache sentry
+apache serf
+apache servicecomb
+apache servicemix
+apache shale (in the attic)
+apache shardingsphere (incubating)
+apache shindig (in the attic)
+apache shiro
+apache singa (incubating)
+apache skywalking
+apache sling
+apache solr
+apache spamassassin
+apache spark
+apache spatial information system
+apache spot (incubating)
+apache sqoop
+apache sshd
+apache stanbol
+apache steve
+apache storm
+apache stratos (in the attic)
+apache streams
+apache struts
+apache subversion
+apache superset (incubating)
+apache synapse
+apache syncope
+apache systemml
+apache tajo
+apache tamaya (incubating)
+apache tapestry
+apache taverna (incubating)
+apache tentacles
+apache tephra (incubating)
+apache texen
+apache tez
+apache thrift
+apache tika
+apache tiles (in the attic)
+apache tinkerpop
+apache tobago
+apache tomcat
+apache tomee
+apache toree (incubating)
+apache torque
+apache traffic control
+apache traffic server
+apache trafodion
+apache training (incubating)
+apache turbine
+apache tuscany (in the attic)
+apache tuweni (incubating)
+apache tvm (incubating)
+apache twill
+apache uima
+apache unomi
+apache usergrid
+apache vcl
+apache velocity
+apache velocity dvsl
+apache velocity tools
+apache vss ant library
+apache vxquery
+apache vysper
+apache warble (incubating)
+apache websh
+apache weex (incubating)
+apache whimsy
+apache whirr (in the attic)
+apache whisker
+apache wicket
+apache wink (in the attic)
+apache woden
+apache wookie (in the attic)
+apache xalan for c++ xslt processor
+apache xalan for java xslt processor
+apache xerces for c++ xml parser
+apache xerces for java xml parser
+apache xerces for perl xml parser
+apache xindice (in the attic)
+apache xml commons external
+apache xml commons resolver
+apache xml graphics commons
+apache xmlbeans
+apache yetus
+apache zeppelin
+apache zookeeper
+.net ant library
+abdera (in the attic)
+accumulo
+ace (in the attic)
+activemq
+airavata
+airflow
+allura
+amaterasu (incubating)
+ambari
+anakia
+annotator (incubating)
+ant
+antunit
+any23
+apex
+archiva
+aries
+arrow
+asterixdb
+atlas
+aurora
+avro
+axiom
+axis2
+bahir
+batchee (incubating)
+batik
+beam
+beehive (in the attic)
+bigtop
+bloodhound
+bookkeeper
+brooklyn
+brpc (incubating)
+buildr
+bval
+calcite
+camel
+carbondata
+cassandra
+cayenne
+celix
+chainsaw
+chemistry
+chukwa
+clerezza
+click (in the attic)
+cloudstack
+cocoon
+commons bcel
+commons beanutils
+commons bsf
+commons chain
+commons cli
+commons codec
+commons collections
+commons compress
+commons configuration
+commons daemon
+commons dbcp
+commons dbutils
+commons digester
+commons discovery
+commons el
+commons email
+commons exec
+commons fileupload
+commons functor
+commons httpclient
+commons io
+commons jci
+commons jcs
+commons jelly
+commons jexl
+commons jxpath
+commons lang
+commons launcher
+commons logging
+commons math
+commons modeler
+commons net
+commons ognl
+commons pool
+commons proxy
+commons rng
+commons scxml
+commons validator
+commons vfs
+commons weaver
+community development
+compress ant library
+continuum (in the attic)
+cordova
+couchdb
+crail (incubating)
+crunch
+ctakes
+curator
+cxf
+daffodil (incubating)
+datafu
+datafu (incubating)
+datasketches (incubating)
+deltacloud (in the attic)
+deltaspike
+derby
+devicemap (in the attic)
+directmemory (in the attic)
+directory
+directory server
+directory studio
+dlab (incubating)
+dolphinscheduler (incubating)
+doris (incubating)
+drat
+drill
+druid (incubating)
+dubbo
+eagle
+echarts (incubating)
+ecs (in the attic)
+edgent (incubating)
+empire-db
+esme (in the attic)
+etch (in the attic)
+excalibur (in the attic)
+falcon
+felix
+fineract
+flagon (incubating)
+flex
+flink
+flume
+fluo
+fluo recipes
+fluo yarn
+fop
+forrest
+fortress
+freemarker
+freemarker (incubating)
+ftpserver
+geode
+geronimo
+giraph
+gobblin (incubating)
+gora
+griffin
+groovy
+guacamole
+gump
+hadoop
+hama
+harmony (in the attic)
+hawq
+helix
+heron (incubating)
+hive
+hivemall (incubating)
+hivemind (in the attic)
+http server
+httpcomponents client
+httpcomponents core
+hudi (incubating)
+iceberg (incubating)
+ignite
+impala
+iotdb (incubating)
+isis
+ivy
+ivyde
+jackrabbit
+jakarta cactus (in the attic)
+james
+jclouds
+jena
+jmeter
+johnzon
+joshua
+jspwiki
+juneau
+kafka
+karaf
+kerby
+kibble
+knox
+kudu
+kylin
+labs
+lens
+lenya (in the attic)
+libcloud
+livy (incubating)
+log4cxx
+log4j 2
+log4net
+log4php
+lucene core
+lucene.net
+lucy (in the attic)
+madlib
+mahout
+manifoldcf
+marmotta
+marvin-ai (incubating)
+maven
+maven doxia
+mesos
+metamodel
+metron
+milagro (incubating)
+mina
+mnemonic
+mod_ftp
+mod_perl
+mrunit (in the attic)
+mxnet (incubating)
+myfaces
+mynewt
+myriad (incubating)
+nemo (incubating)
+netbeans
+nifi
+nutch
+ode (in the attic)
+ofbiz
+olingo
+oltu - parent (in the attic)
+omid (incubating)
+oodt
+oozie
+open climate workbench
+openjpa
+openmeetings
+opennlp
+openoffice
+openwebbeans
+openwhisk
+orc
+oro (in the attic)
+pagespeed (incubating)
+parquet
+pdfbox
+phoenix
+pig
+pinot (incubating)
+pivot
+plc4x
+poi
+polygene (in the attic)
+pony mail (incubating)
+portable runtime
+portals
+predictionio
+props ant library
+pulsar
+qpid
+ranger
+rat
+ratis (incubating)
+reef
+regexp (in the attic)
+reusable dialog components (rdc) taglib
+river
+rivet
+rocketmq
+roller
+royale
+rya (incubating)
+s2graph (incubating)
+samoa (incubating)
+samza
+sandesha2
+santuario
+scout
+sdap (incubating)
+sentry
+serf
+servicecomb
+servicemix
+shale (in the attic)
+shardingsphere (incubating)
+shindig (in the attic)
+shiro
+singa (incubating)
+skywalking
+sling
+solr
+spamassassin
+spark
+spatial information system
+spot (incubating)
+sqoop
+sshd
+stanbol
+steve
+storm
+stratos (in the attic)
+streams
+struts
+subversion
+superset (incubating)
+synapse
+syncope
+systemml
+tajo
+tamaya (incubating)
+tapestry
+taverna (incubating)
+tentacles
+tephra (incubating)
+texen
+tez
+thrift
+tika
+tiles (in the attic)
+tinkerpop
+tobago
+tomcat
+tomee
+toree (incubating)
+torque
+traffic control
+traffic server
+trafodion
+training (incubating)
+turbine
+tuscany (in the attic)
+tuweni (incubating)
+tvm (incubating)
+twill
+uima
+unomi
+usergrid
+vcl
+velocity
+velocity dvsl
+velocity tools
+vss ant library
+vxquery
+vysper
+warble (incubating)
+websh
+weex (incubating)
+whimsy
+whirr (in the attic)
+whisker
+wicket
+wink (in the attic)
+woden
+wookie (in the attic)
+xalan for c++ xslt processor
+xalan for java xslt processor
+xerces for c++ xml parser
+xerces for java xml parser
+xerces for perl xml parser
+xindice (in the attic)
+xml commons external
+xml commons resolver
+xml graphics commons
+xmlbeans
+yetus
+zeppelin
+zookeeper
+apache .net ant library
+apache abdera
+apache accumulo
+apache ace
+apache activemq
+apache airavata
+apache airflow
+apache allura
+apache amaterasu
+apache ambari
+apache anakia
+apache annotator
+apache ant
+apache antunit
+apache any23
+apache apex
+apache archiva
+apache aries
+apache arrow
+apache asterixdb
+apache atlas
+apache aurora
+apache avro
+apache axiom
+apache axis2
+apache bahir
+apache batchee
+apache batik
+apache beam
+apache beehive
+apache bigtop
+apache bloodhound
+apache bookkeeper
+apache brooklyn
+apache brpc
+apache buildr
+apache bval
+apache calcite
+apache camel
+apache carbondata
+apache cassandra
+apache cayenne
+apache celix
+apache chainsaw
+apache chemistry
+apache chukwa
+apache clerezza
+apache click
+apache cloudstack
+apache cocoon
+apache commons bcel
+apache commons beanutils
+apache commons bsf
+apache commons chain
+apache commons cli
+apache commons codec
+apache commons collections
+apache commons compress
+apache commons configuration
+apache commons daemon
+apache commons dbcp
+apache commons dbutils
+apache commons digester
+apache commons discovery
+apache commons el
+apache commons email
+apache commons exec
+apache commons fileupload
+apache commons functor
+apache commons httpclient
+apache commons io
+apache commons jci
+apache commons jcs
+apache commons jelly
+apache commons jexl
+apache commons jxpath
+apache commons lang
+apache commons launcher
+apache commons logging
+apache commons math
+apache commons modeler
+apache commons net
+apache commons ognl
+apache commons pool
+apache commons proxy
+apache commons rng
+apache commons scxml
+apache commons validator
+apache commons vfs
+apache commons weaver
+apache community development
+apache compress ant library
+apache continuum
+apache cordova
+apache couchdb
+apache crail
+apache crunch
+apache ctakes
+apache curator
+apache cxf
+apache daffodil
+apache datafu
+apache datafu
+apache datasketches
+apache deltacloud
+apache deltaspike
+apache derby
+apache devicemap
+apache directmemory
+apache directory
+apache directory server
+apache directory studio
+apache dlab
+apache dolphinscheduler
+apache doris
+apache drat
+apache drill
+apache druid
+apache dubbo
+apache eagle
+apache echarts
+apache ecs
+apache edgent
+apache empire-db
+apache esme
+apache etch
+apache excalibur
+apache falcon
+apache felix
+apache fineract
+apache flagon
+apache flex
+apache flink
+apache flume
+apache fluo
+apache fluo recipes
+apache fluo yarn
+apache fop
+apache forrest
+apache fortress
+apache freemarker
+apache freemarker
+apache ftpserver
+apache geode
+apache geronimo
+apache giraph
+apache gobblin
+apache gora
+apache griffin
+apache groovy
+apache guacamole
+apache gump
+apache hadoop
+apache hama
+apache harmony
+apache hawq
+apache helix
+apache heron
+apache hive
+apache hivemall
+apache hivemind
+apache http server
+apache httpcomponents client
+apache httpcomponents core
+apache hudi
+apache iceberg
+apache ignite
+apache impala
+apache iotdb
+apache isis
+apache ivy
+apache ivyde
+apache jackrabbit
+apache jakarta cactus
+apache james
+apache jclouds
+apache jena
+apache jmeter
+apache johnzon
+apache joshua
+apache jspwiki
+apache juneau
+apache kafka
+apache karaf
+apache kerby
+apache kibble
+apache knox
+apache kudu
+apache kylin
+apache labs
+apache lens
+apache lenya
+apache libcloud
+apache livy
+apache log4cxx
+apache log4j 2
+apache log4net
+apache log4php
+apache lucene core
+apache lucene.net
+apache lucy
+apache madlib
+apache mahout
+apache manifoldcf
+apache marmotta
+apache marvin-ai
+apache maven
+apache maven doxia
+apache mesos
+apache metamodel
+apache metron
+apache milagro
+apache mina
+apache mnemonic
+apache mod_ftp
+apache mod_perl
+apache mrunit
+apache mxnet
+apache myfaces
+apache mynewt
+apache myriad
+apache nemo
+apache netbeans
+apache nifi
+apache nutch
+apache ode
+apache ofbiz
+apache olingo
+apache oltu - parent
+apache omid
+apache oodt
+apache oozie
+apache open climate workbench
+apache openjpa
+apache openmeetings
+apache opennlp
+apache openoffice
+apache openwebbeans
+apache openwhisk
+apache orc
+apache oro
+apache pagespeed
+apache parquet
+apache pdfbox
+apache phoenix
+apache pig
+apache pinot
+apache pivot
+apache plc4x
+apache poi
+apache polygene
+apache pony mail
+apache portable runtime
+apache portals
+apache predictionio
+apache props ant library
+apache pulsar
+apache qpid
+apache ranger
+apache rat
+apache ratis
+apache reef
+apache regexp
+apache reusable dialog components
+apache river
+apache rivet
+apache rocketmq
+apache roller
+apache royale
+apache rya
+apache s2graph
+apache samoa
+apache samza
+apache sandesha2
+apache santuario
+apache scout
+apache sdap
+apache sentry
+apache serf
+apache servicecomb
+apache servicemix
+apache shale
+apache shardingsphere
+apache shindig
+apache shiro
+apache singa
+apache skywalking
+apache sling
+apache solr
+apache spamassassin
+apache spark
+apache spatial information system
+apache spot
+apache sqoop
+apache sshd
+apache stanbol
+apache steve
+apache storm
+apache stratos
+apache streams
+apache struts
+apache subversion
+apache superset
+apache synapse
+apache syncope
+apache systemml
+apache tajo
+apache tamaya
+apache tapestry
+apache taverna
+apache tentacles
+apache tephra
+apache texen
+apache tez
+apache thrift
+apache tika
+apache tiles
+apache tinkerpop
+apache tobago
+apache tomcat
+apache tomee
+apache toree
+apache torque
+apache traffic control
+apache traffic server
+apache trafodion
+apache training
+apache turbine
+apache tuscany
+apache tuweni
+apache tvm
+apache twill
+apache uima
+apache unomi
+apache usergrid
+apache vcl
+apache velocity
+apache velocity dvsl
+apache velocity tools
+apache vss ant library
+apache vxquery
+apache vysper
+apache warble
+apache websh
+apache weex
+apache whimsy
+apache whirr
+apache whisker
+apache wicket
+apache wink
+apache woden
+apache wookie
+apache xalan for c++ xslt processor
+apache xalan for java xslt processor
+apache xerces for c++ xml parser
+apache xerces for java xml parser
+apache xerces for perl xml parser
+apache xindice
+apache xml commons external
+apache xml commons resolver
+apache xml graphics commons
+apache xmlbeans
+apache yetus
+apache zeppelin
+apache zookeeper
+.net ant library
+abdera
+accumulo
+ace
+activemq
+airavata
+airflow
+allura
+amaterasu
+ambari
+anakia
+annotator
+ant
+antunit
+any23
+apex
+archiva
+aries
+arrow
+asterixdb
+atlas
+aurora
+avro
+axiom
+axis2
+bahir
+batchee
+batik
+beam
+beehive
+bigtop
+bloodhound
+bookkeeper
+brooklyn
+brpc
+buildr
+bval
+calcite
+camel
+carbondata
+cassandra
+cayenne
+celix
+chainsaw
+chemistry
+chukwa
+clerezza
+click
+cloudstack
+cocoon
+commons bcel
+commons beanutils
+commons bsf
+commons chain
+commons cli
+commons codec
+commons collections
+commons compress
+commons configuration
+commons daemon
+commons dbcp
+commons dbutils
+commons digester
+commons discovery
+commons el
+commons email
+commons exec
+commons fileupload
+commons functor
+commons httpclient
+commons io
+commons jci
+commons jcs
+commons jelly
+commons jexl
+commons jxpath
+commons lang
+commons launcher
+commons logging
+commons math
+commons modeler
+commons net
+commons ognl
+commons pool
+commons proxy
+commons rng
+commons scxml
+commons validator
+commons vfs
+commons weaver
+community development
+compress ant library
+continuum
+cordova
+couchdb
+crail
+crunch
+ctakes
+curator
+cxf
+daffodil
+datafu
+datafu
+datasketches
+deltacloud
+deltaspike
+derby
+devicemap
+directmemory
+directory
+directory server
+directory studio
+dlab
+dolphinscheduler
+doris
+drat
+drill
+druid
+dubbo
+eagle
+echarts
+ecs
+edgent
+empire-db
+esme
+etch
+excalibur
+falcon
+felix
+fineract
+flagon
+flex
+flink
+flume
+fluo
+fluo recipes
+fluo yarn
+fop
+forrest
+fortress
+freemarker
+freemarker
+ftpserver
+geode
+geronimo
+giraph
+gobblin
+gora
+griffin
+groovy
+guacamole
+gump
+hadoop
+hama
+harmony
+hawq
+helix
+heron
+hive
+hivemall
+hivemind
+http server
+httpcomponents client
+httpcomponents core
+hudi
+iceberg
+ignite
+impala
+iotdb
+isis
+ivy
+ivyde
+jackrabbit
+jakarta cactus
+james
+jclouds
+jena
+jmeter
+johnzon
+joshua
+jspwiki
+juneau
+kafka
+karaf
+kerby
+kibble
+knox
+kudu
+kylin
+labs
+lens
+lenya
+libcloud
+livy
+log4cxx
+log4j 2
+log4net
+log4php
+lucene core
+lucene.net
+lucy
+madlib
+mahout
+manifoldcf
+marmotta
+marvin-ai
+maven
+maven doxia
+mesos
+metamodel
+metron
+milagro
+mina
+mnemonic
+mod_ftp
+mod_perl
+mrunit
+mxnet
+myfaces
+mynewt
+myriad
+nemo
+netbeans
+nifi
+nutch
+ode
+ofbiz
+olingo
+oltu - parent
+omid
+oodt
+oozie
+open climate workbench
+openjpa
+openmeetings
+opennlp
+openoffice
+openwebbeans
+openwhisk
+orc
+oro
+pagespeed
+parquet
+pdfbox
+phoenix
+pig
+pinot
+pivot
+plc4x
+poi
+polygene
+pony mail
+portable runtime
+portals
+predictionio
+props ant library
+pulsar
+qpid
+ranger
+rat
+ratis
+reef
+regexp
+reusable dialog components
+river
+rivet
+rocketmq
+roller
+royale
+rya
+s2graph
+samoa
+samza
+sandesha2
+santuario
+scout
+sdap
+sentry
+serf
+servicecomb
+servicemix
+shale
+shardingsphere
+shindig
+shiro
+singa
+skywalking
+sling
+solr
+spamassassin
+spark
+spatial information system
+spot
+sqoop
+sshd
+stanbol
+steve
+storm
+stratos
+streams
+struts
+subversion
+superset
+synapse
+syncope
+systemml
+tajo
+tamaya
+tapestry
+taverna
+tentacles
+tephra
+texen
+tez
+thrift
+tika
+tiles
+tinkerpop
+tobago
+tomcat
+tomee
+toree
+torque
+traffic control
+traffic server
+trafodion
+training
+turbine
+tuscany
+tuweni
+tvm
+twill
+uima
+unomi
+usergrid
+vcl
+velocity
+velocity dvsl
+velocity tools
+vss ant library
+vxquery
+vysper
+warble
+websh
+weex
+whimsy
+whirr
+whisker
+wicket
+wink
+woden
+wookie
+xalan for c++ xslt processor
+xalan for java xslt processor
+xerces for c++ xml parser
+xerces for java xml parser
+xerces for perl xml parser
+xindice
+xml commons external
+xml commons resolver
+xml graphics commons
+xmlbeans
+yetus
+zeppelin
+zookeeper

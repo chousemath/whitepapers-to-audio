@@ -6,20 +6,15 @@ DaaS----------Desktop as a Service
 DNS----------Domain Name Server
 FTP----------File Transfer Protocol
 HDD----------Hard Disk Drive
-HPC----------High
 HTTP----------HyperText Transfer Protocol
 IaaS----------Infrastructure as a Service
 IP----------Internet Protocol
 iPaas----------Integration Platform as a Service
-KVM----------Kernel
-LAMP----------Linux
 LXC----------Linux Containers
 PaaS----------Platform as a Service
 RAID----------Redundant Array of Independent Disks
 SaaS----------Software as a Service
-SDN----------Software
 SQL----------Structured Query Language
-SSD----------Solid
 SSH----------Secure Shell
 SSL----------Secure Sockets Layer
 TCP----------Transmission Control Protocol

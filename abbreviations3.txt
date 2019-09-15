@@ -1,0 +1,55 @@
+3DM----------Data Driven Decision Making
+ACID----------Atomicity, Consistency, Isolation and Durability
+ADAPA----------Adaptive Decision and Predictive Analytics
+AOSD----------Aspect-Oriented Software Development
+AQL----------Annotation Query Language
+BDA----------Big Data Analytics
+CART----------Classification and Regression Trees
+CCA----------Canonical Correlational Analysis
+CEP----------Complex Event Processing
+COTS----------Commodity off-the-shelf
+CQL----------Cypher Query Language
+CQL----------Cassandra Query Language
+CQL----------Contextual/Common Query Language
+DAD----------Discover, Access, Distill
+DAG----------Directed Acyclic Graph
+DHSL----------Distributed Hadoop Storage Layer
+ECL----------Enterprise Control Language
+EDA----------Exploratory Data Analysis, Event Driven Architecture
+EPN----------Event Processing Nodes
+ETL----------Extract, transform and load
+FUSE----------Filesystem in Userspace
+GEOFF----------Graph Serialization Format
+HAR----------Hadoop Archive
+HDFS ACL----------Hadoop Distributed File System Access Control List
+HPCC----------High Performance Computing Cluster
+hPDL----------Hadoop Process Definition Language
+HPIL----------Hadoop Physical Infrastructure Layer
+HTAP----------Hybrid Transactional and Analytical Processing
+IDA----------Initial Data Analysis
+JAQL----------JSON Query Language
+JSON----------JavaScript Object Notation Query Language
+KFS----------Kosmos File System
+LZO----------Lempel-Ziv-Oberhumer
+MDM----------Master Data Management
+MPP----------Massively Parallel Processing
+NLP----------Natural Language Processing
+OLAP----------Online Analytical Processing
+OLTP----------Online Transactional Processing
+PMML----------Predictive Model Markup Language
+PXF----------Pivotal Xtension Frameworks
+RDD----------Resilient Distributed Database
+S4----------Simple Scalable Streaming System
+SOA----------Service Oriented Architecture
+TDA----------Topological Data Analysis
+UDAF----------USer Defined Aggregate Function
+UDTF----------User Defined Tablegenerating Function
+UIMA----------Unstructured Information Management Architecture
+UPPI----------Universal PMML Plug-in
+VC----------Vapnik Chervonekis Dimension
+W3C----------World Wide Web Consortium
+WEKA----------Waikato Environment for Knowledge Analysis
+XDW----------Extended Data Warehouse
+XML----------Extensible Markup Language
+YARN----------Yet Another Resource Negotiator
+ZFS----------Zettabyte File System by Sun Mircosystem
