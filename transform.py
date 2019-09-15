@@ -18,7 +18,16 @@ with open(os.path.join(root, 'apache_projects.txt')) as f:
 languages = ["javascript", "python", "java", "c++", "swift", "typescript", "go programming language", "sql", "ruby", "r programming language", "php", "perl", "kotlin", "c#", "rust", "scheme", "erlang", "scala", "elixir", "haskell"]
 _words_to_emphasize.extend(languages)
 _special_words = {
-        'hbase': '<say-as interpret-as="characters">h</say-as> base'
+        'hbase': '<say-as interpret-as="characters">h</say-as> base',
+        '99.99%': 'four nines',
+        '99.999%': 'five nines',
+        '99.9999%': 'six nines',
+        '99.99999%': 'seven nines',
+        '99.999999%': 'eight nines',
+        '99.9999999%': 'nine nines',
+        '99.99999999%': 'ten nines',
+        '99.999999999%': 'eleven nines',
+        '99.9999999999%': 'twelve nines',
         }
 special_words = {}
 _stopwords = ["i", "me", "my", "myself", "we", "our", "ours", "ourselves", "you", "your", "yours", "yourself", "yourselves", "he", "him", "his", "himself", "she", "her", "hers", "herself", "it", "its", "itself", "they", "them", "their", "theirs", "themselves", "what", "which", "who", "whom", "this", "that", "these", "those", "am", "is", "are", "was", "were", "be", "been", "being", "have", "has", "had", "having", "do", "does", "did", "doing", "a", "an", "the", "and", "but", "if", "or", "because", "as", "until", "while", "of", "at", "by", "for", "with", "about", "against", "between", "into", "through", "during", "before", "after", "above", "below", "to", "from", "up", "down", "in", "out", "on", "off", "over", "under", "again", "further", "then", "once", "here", "there", "when", "where", "why", "how", "all", "any", "both", "each", "few", "more", "most", "other", "some", "such", "no", "nor", "not", "only", "own", "same", "so", "than", "too", "very", "s", "t", "can", "will", "just", "don", "should", "now"]
@@ -110,8 +119,14 @@ with open(os.path.join(root, 'abbreviations2.txt')) as f:
     abbrevs.extend([x.lower() for x in f.readlines()])
 with open(os.path.join(root, 'abbreviations3.txt')) as f:
     abbrevs.extend([x.lower() for x in f.readlines()])
+with open(os.path.join(root, 'security.txt')) as f:
+    abbrevs.extend([x.lower() for x in f.readlines()])
+with open(os.path.join(root, 'aws1.txt')) as f:
+    abbrevs.extend([x.lower() for x in f.readlines()])
 for line in abbrevs:
     arr = [x.replace('\n', '') for x in line.split('----------')]
+    if len(arr) != 2:
+        continue
     abbreviations[arr[0]] = arr[1]
     abbreviations[f'({arr[0]})'] = f'({arr[1]})'
     abbreviations[f'({arr[0]}'] = f'({arr[1]}'

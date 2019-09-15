@@ -1,0 +1,26 @@
+
+
+<speak><amazon:auto-breaths><p><emphasis>Use Azure Event Hubs from Apache <emphasis>kafka</emphasis> applications</emphasis></p>
+<p>Event Hubs provides a <emphasis>kafka</emphasis> endpoint that can be used by your existing <emphasis>kafka</emphasis> based applications as an alternative to running your own <emphasis>kafka</emphasis> cluster. Event Hubs supports Apache <emphasis>kafka</emphasis> protocol 1.0 and later, and works with your existing <emphasis>kafka</emphasis> applications, including MirrorMaker.</p>
+<p><emphasis>What does Event Hubs for <emphasis>kafka</emphasis> provide?</emphasis></p>
+<p>The Event Hubs for <emphasis>kafka</emphasis> feature provides a protocol head on top of Azure Event Hubs that is binary compatible with <emphasis>kafka</emphasis> versions 1.0 and later for both reading from and writing to <emphasis>kafka</emphasis> topics. You may start using the <emphasis>kafka</emphasis> endpoint from your applications with no code change but a minimal configuration change. You update the connection string in configurations to point to the <emphasis>kafka</emphasis> endpoint exposed by your event hub instead of pointing to your <emphasis>kafka</emphasis> cluster. Then, you can start streaming events from your applications that use the <emphasis>kafka</emphasis> protocol into Event Hubs. This integration also supports frameworks like <emphasis>kafka</emphasis> Connect, which is currently in preview.</p>
+<p>Conceptually <emphasis>kafka</emphasis> and Event Hubs are nearly identical: they are both partitioned logs built for streaming data.</p>
+<p><emphasis>Key differences between <emphasis>kafka</emphasis> and Event Hubs</emphasis></p>
+<p>While Apache <emphasis>kafka</emphasis> is software, which you can run wherever you choose, Event Hubs is a cloud service similar to Azure Blob Storage. There are no servers or networks to manage and no brokers to configure. You create a namespace, which is an FQDN in which your topics live, and then create Event Hubs or topics within that namespace. For more information about Event Hubs and namespaces, see Event Hubs features. As a cloud service, Event Hubs uses a single stable virtual internet protocol address as the endpoint, so clients do not need to know about the brokers or machines within a cluster.</p>
+<p>Scale in Event Hubs is controlled by how many throughput units you purchase, with each throughput unit entitling you to 1 MB per second, or 1000 events per second of ingress. By default, Event Hubs scales up throughput units when you reach your limit with the Auto-Inflate feature; this feature also works with the Event Hubs for <emphasis>kafka</emphasis> feature.</p>
+<p><emphasis>Security and authentication</emphasis></p>
+<p>Azure Event Hubs requires secure socket layer or transport layer security for all communication and uses Shared Access Signatures (SAS) for authentication. This requirement is also true for a <emphasis>kafka</emphasis> endpoint within Event Hubs. For compatibility with <emphasis>kafka</emphasis>, Event Hubs uses simple authentication and security layer PLAIN for authentication and simple authentication and security layer secure socket layer for transport security. For more information about security in Event Hubs, see Event Hubs authentication and security.</p>
+<p><emphasis>Other Event Hubs features available for Kafka</emphasis></p>
+<p>The Event Hubs for <emphasis>kafka</emphasis> feature enables you to write with one protocol and read with another, so that your current <emphasis>kafka</emphasis> producers can continue publishing via <emphasis>kafka</emphasis>, and you can add readers with Event Hubs, such as Azure Stream Analytics or Azure Functions. Additionally, Event Hubs features such as Capture and Geo Disaster-Recovery also work with the Event Hubs for <emphasis>kafka</emphasis> feature.</p>
+<p><emphasis>Features that are not yet supported</emphasis></p>
+<p>Here is the list of <emphasis>kafka</emphasis> features that are not yet supported:</p>
+<p>Idempotent producer</p>
+<p>Transaction</p>
+<p>Compression</p>
+<p>Size-based retention</p>
+<p>Log compaction</p>
+<p>Adding partitions to an existing topic</p>
+<p>hypertext transfer protocol <emphasis>kafka</emphasis> application programming interface support</p>
+<p><emphasis>kafka</emphasis> <emphasis>streams</emphasis></p>
+</amazon:auto-breaths></speak>
+

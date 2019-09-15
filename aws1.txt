@@ -1,0 +1,98 @@
+aws----------amazon web services
+amazon es----------amazon elasticsearch service
+ami----------amazon machine image
+api----------application programming interface
+ai----------artificial intelligence
+acl----------access control list
+arn----------amazon resource name
+az----------availability zone
+asg----------auto scaling group
+aes----------advanced encryption system
+adfs----------active directory federation service
+cdn----------content delivery network
+cli----------command line interface
+cidr----------classless inter-domain routing
+cors----------cross origin resource sharing
+ci/cd----------continous integration/continous deployment
+dms----------database migration service
+dns----------domain name system
+ddos----------distritubed denial of service
+dos----------denial of service
+daas----------desktop as-a-service
+ec2----------elastic compute cloud
+ecs----------ec2 container service
+efs----------elastic file system
+ebs----------elastic block store
+emr----------elastic mapreduce
+elb----------elastic load balancer
+eip----------elastic ip
+eni----------elastic network interface
+fifo----------first in first out
+faas----------function as-a-service
+hpc----------high-performance compute
+hvm----------hardware virtual machine
+http----------hypertext transfer protocol
+https----------http secure
+iam----------identity & access management
+iot----------internet of things
+s3 ia----------s3 infrequent access
+iscsi----------internet small computer storage interface
+iops----------input/output operation per second
+igw----------internet gateway
+icmp----------internet control message protocol
+ip----------internet protocol
+ipsec----------internet protocol security
+iaas----------infrastructure-as-a-service
+json----------javascript object notation
+kms----------key management service
+lb----------load balancer
+mfa----------multi-factor authentication
+mstsc----------microsoft terminal service client
+mpp----------massive parallel processing
+mitm----------man in the middle attack
+mpls----------multi protocol label switching
+nfs----------network file system
+ns----------name server
+nat----------network address translation
+oltp----------online transaction processing
+olap----------online analytics processing
+pci dss----------payment card industry data security standard
+pv----------paravirtual
+paas----------platform as
+rds----------relational database service
+rrs----------reduced redundancy storage
+raid----------redundant array of independent disk
+ram----------random-access memory
+s3----------simple storage service
+sms----------server migration service
+swf----------simple workflow service
+sns----------simple notification service
+sqs----------simple queue service
+ses----------simple email service
+sla----------service level agreement
+ssl----------secure socket layer
+sse----------server side encryption
+soa----------start of authority
+sdk----------software development kit
+ssh----------secure shell
+soap----------simple object access protocol
+cell content----------cell content
+sso----------single sign-on
+saml----------security assertion markup language
+saas----------software-as-a-service
+saas----------security-as-a-service
+sts----------security token service
+ttl----------time to live
+tls----------transport layer security
+tpm----------trusted platform module
+tpm----------technical program manager
+tps----------transaction per second
+tcp----------transmission control protocol
+vpc----------virtual private cloud
+vm----------virtual machine
+vtl----------virtual tape library
+vpn----------virtual private network
+vlan----------virtual local area network
+vdi----------virtual desktop infrastructure
+vpg----------virtual private gateway
+waf----------web application firewall

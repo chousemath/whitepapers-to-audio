@@ -1,0 +1,36 @@
+<emphasis>Use Azure Event Hubs from Apache Kafka applications</emphasis>
+
+Event Hubs provides a Kafka endpoint that can be used by your existing Kafka based applications as an alternative to running your own Kafka cluster. Event Hubs supports Apache Kafka protocol 1.0 and later, and works with your existing Kafka applications, including MirrorMaker.
+
+<emphasis>What does Event Hubs for Kafka provide?</emphasis>
+
+The Event Hubs for Kafka feature provides a protocol head on top of Azure Event Hubs that is binary compatible with Kafka versions 1.0 and later for both reading from and writing to Kafka topics. You may start using the Kafka endpoint from your applications with no code change but a minimal configuration change. You update the connection string in configurations to point to the Kafka endpoint exposed by your event hub instead of pointing to your Kafka cluster. Then, you can start streaming events from your applications that use the Kafka protocol into Event Hubs. This integration also supports frameworks like Kafka Connect, which is currently in preview.
+
+Conceptually Kafka and Event Hubs are nearly identical: they are both partitioned logs built for streaming data.
+
+<emphasis>Key differences between Kafka and Event Hubs</emphasis>
+
+While Apache Kafka is software, which you can run wherever you choose, Event Hubs is a cloud service similar to Azure Blob Storage. There are no servers or networks to manage and no brokers to configure. You create a namespace, which is an FQDN in which your topics live, and then create Event Hubs or topics within that namespace. For more information about Event Hubs and namespaces, see Event Hubs features. As a cloud service, Event Hubs uses a single stable virtual IP address as the endpoint, so clients do not need to know about the brokers or machines within a cluster.
+
+Scale in Event Hubs is controlled by how many throughput units you purchase, with each throughput unit entitling you to 1 MB per second, or 1000 events per second of ingress. By default, Event Hubs scales up throughput units when you reach your limit with the Auto-Inflate feature; this feature also works with the Event Hubs for Kafka feature.
+
+<emphasis>Security and authentication</emphasis>
+
+Azure Event Hubs requires SSL or TLS for all communication and uses Shared Access Signatures (SAS) for authentication. This requirement is also true for a Kafka endpoint within Event Hubs. For compatibility with Kafka, Event Hubs uses SASL PLAIN for authentication and SASL SSL for transport security. For more information about security in Event Hubs, see Event Hubs authentication and security.
+
+<emphasis>Other Event Hubs features available for Kafka</emphasis>
+
+The Event Hubs for Kafka feature enables you to write with one protocol and read with another, so that your current Kafka producers can continue publishing via Kafka, and you can add readers with Event Hubs, such as Azure Stream Analytics or Azure Functions. Additionally, Event Hubs features such as Capture and Geo Disaster-Recovery also work with the Event Hubs for Kafka feature.
+
+<emphasis>Features that are not yet supported</emphasis>
+
+Here is the list of Kafka features that are not yet supported:
+
+Idempotent producer
+Transaction
+Compression
+Size-based retention
+Log compaction
+Adding partitions to an existing topic
+HTTP Kafka API support
+Kafka Streams

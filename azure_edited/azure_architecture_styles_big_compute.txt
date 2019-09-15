@@ -1,0 +1,33 @@
+
+
+<speak><amazon:auto-breaths><p><emphasis> Big compute architecture style </emphasis></p>
+<p>The term big compute describes large-scale workloads that require a large number of cores, often numbering in the hundreds or thousands. Scenarios include image rendering, fluid dynamics, financial risk modeling, oil exploration, drug design, and engineering stress analysis, among others.</p>
+<p>Here are some typical characteristics of big compute applications:</p>
+<p>The work can be split into discrete tasks, which can be run across many cores simultaneously.</p>
+<p>Each task is finite. It takes some input, does some processing, and produces output. The entire application runs for a finite amount of time (minutes to days). A common pattern is to provision a large number of cores in a burst, and then spin down to zero once the application completes.</p>
+<p>The application does not need to stay up 24/7. However, the system must handle node failures or application crashes.</p>
+<p>For some applications, tasks are independent and can run in parallel. In other cases, tasks are tightly coupled, meaning they must interact or exchange intermediate results. In that case, consider using high-speed networking technologies such as <emphasis>infiniband</emphasis> and remote direct memory access (RDMA).</p>
+<p>Depending on your workload, you might use compute-intensive virtual machine sizes <prosody rate="slow">(<say-as interpret-as="characters">h16r</say-as>,</prosody> <prosody rate="slow"><say-as interpret-as="characters">h16mr</say-as>,</prosody> and A9).</p>
+<p><emphasis> When to use this architecture </emphasis></p>
+<p>Computationally intensive operations such as simulation and number crunching.</p>
+<p>Simulations that are computationally intensive and must be split across CPUs in multiple computers (10-1000s).</p>
+<p>Simulations that require too much memory for one computer, and must be split across multiple computers.</p>
+<p>Long-running computations that would take too long to complete on a single computer.</p>
+<p>Smaller computations that must be run 100s or 1000s of times, such as Monte Carlo simulations.</p>
+<p><emphasis> Benefits </emphasis></p>
+<p>High performance with "embarrassingly parallel" processing.</p>
+<p>Can harness hundreds or thousands of compute cores to solve large problems faster.</p>
+<p>Access to specialized high-performance hardware, with dedicated high-speed <emphasis>infiniband</emphasis> networks.</p>
+<p>You can provision VMs as needed to do work, and then tear them down.</p>
+<p><emphasis> Challenges </emphasis></p>
+<p>Managing the virtual machine infrastructure.</p>
+<p>Managing the volume of number crunching</p>
+<p>Provisioning thousands of cores promptly.</p>
+<p>For tightly coupled tasks, adding more cores can have diminishing returns. You may need to experiment to find the optimum number of cores.</p>
+<p><emphasis> Big compute using Azure Batch </emphasis></p>
+<p>Azure Batch is a managed service for running large-scale high-performance computing (high-performance compute) applications.</p>
+<p>Using Azure Batch, you configure a virtual machine pool, and upload the applications and data files. Then the Batch service provisions the VMs, assign tasks to the VMs, runs the tasks, and monitors the progress. Batch can automatically scale out the VMs in response to the workload. Batch also provides job scheduling.</p>
+<p><emphasis> Big compute running on Virtual Machines </emphasis></p>
+<p>You can use Microsoft high-performance compute Pack to administer a cluster of VMs, and schedule and monitor high-performance compute jobs. With this approach, you must provision and manage the VMs and network infrastructure. Consider this approach if you have existing high-performance compute workloads and want to move some or all it to Azure. You can move the entire high-performance compute cluster to Azure, or you can keep your high-performance compute cluster <emphasis>on-premises</emphasis> but use Azure for burst capacity.</p>
+</amazon:auto-breaths></speak>
+

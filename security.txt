@@ -1,0 +1,370 @@
+sasl----------simple authentication and security layer
+aaa----------access approval authority
+aaa----------army audit agency
+abcs----------army battle command system
+aca----------access control authority
+aces----------automated continuing evaluation system
+acsi----------assistant chief of staff for intelligence (army)
+adp----------automated data processing
+adpso----------automated data processing security officer
+adpsso----------automated data processing system security officer
+adr----------adjudicative desk reference
+ads----------automated data system
+af----------air force
+afb----------air force base
+afcaf----------air force central adjudication facility
+afi----------air force instruction
+afman----------air force manual
+afosf----------air force office of security forces
+afosi----------air force office of special investigations
+afosp----------air force office of security police
+afpc----------air force personnel center
+afpd----------air force policy directive
+afr----------air force regulation
+afsco----------air force security clearance office
+ag/scm----------advisory group/security countermeasures
+ags----------architectural graphic standards
+aia----------air intelligence agency
+aia----------army intelligence agency
+ais----------automated information systems
+aiss----------automated information systems security
+aissp----------automated information systems secuirty plan’
+anaci----------access national agency check with written inquiries
+ao----------area of operations
+aoa----------analysis of alternatives
+aoa----------area of application
+aq-sap----------acquisition special access program
+baa----------business associate agreement
+binas----------biosafety information network advisory system
+bios----------basic input-output system
+bipn----------background investigation plus current national agency check
+bis----------bureau of industry and security
+biss----------base and installation security system
+bms----------balanced magnetic switch
+can----------computer network attack
+cao----------contract administration office
+cap----------controlled access program
+capco----------controlled access program coordination office
+cbi----------confidential business information
+cbipm----------confidential business information protective measure
+cdr----------critical design review
+cd-r----------compact disk-read
+cd-rom----------compact-disk, read-only memory
+cdse----------center for development of security excellence
+ce----------compromising emanations
+ci----------counterintelligence
+ci----------critical information
+cia----------central intelligence agency
+ciar----------counterintelligence awareness and reporting
+cifa----------counterintelligence field activity
+ciia----------critical infrastructure information act
+cik----------crypto-ignition key
+cio----------chief information officer
+cipa----------classified information procedures act
+cirt----------computer incident response team
+cis----------cryptologic information system
+cisara----------counterintelligence, security countermeasures, and related activities
+ciso----------counterintelligence support officer
+cisp----------counterintelligence support plan
+cissm----------component information system security manager
+cissp----------certified information systems security professional
+ckts----------computerized key telephone system
+clas----------classified by
+cm----------classification management
+cm----------configuration management
+cm----------countermeasure
+cmb----------configuration management board
+cmi----------classified military information
+cmiwg----------classification markings and implementation working group
+cna----------computer network attack
+cne----------computer network exploitation
+cnsi----------classified national security information
+cnss----------committee on national security systems
+co----------cyberspace operations
+comint----------communications intelligence
+cpso----------command program security officer
+cpso----------contractor program security officer
+cpu----------central processing unit
+cpwg----------crime-prevention working group
+crg----------compliance review group
+crypto----------cryptography
+cs&----------office of cybersecurity and communications
+csa----------cognizant security agency
+csa----------cognizant security authority
+cscs----------contract security classification specification
+cse----------center for security evaluation
+csea----------cyber security enhancement act
+csil----------critical and sensitive information list
+csism----------communications security (comsec) supplement to the industrial security manual
+cso----------cognizant security office
+css----------central security service
+css----------constant surveillance service
+cssm----------communications-computer system security manager
+cst----------construction surveillance technician
+ct----------counter terrorism
+ctc----------counterterrorist center
+cts----------computerized telephone system
+cts----------cosmic top secret
+ctsa----------cosmic top secret atomal
+ctta----------certified transient electromagnetic pulse emanation standard (tempest) technical authority
+cw----------code word
+cw----------cyber warfare
+darpa----------defense advanced research projects agency
+dcc----------defensive counter-cyber
+dcfl----------defense computer forensics lab
+dchc----------defense counterintelligence and human intelligence center
+dci ssc----------director of central intelligence special security center
+dcl----------declassify
+dcs----------defense clandestine service
+dcsint----------deputy chief of staff for intelligence army
+dd----------defense department
+dda----------designated disclosure authority
+ddal----------delegation of disclosure authority letter
+ddep----------defense data exchange program
+decl----------declassify
+dhs----------department of homeland security
+dia----------defense intelligence agency
+diac----------defense intelligence analysis center
+diacap----------department of defense (dod) information assurance certification and accreditation process
+diam----------defense intelligence agency manual
+dic----------defense intelligence community
+dicob----------defense industrial security clearance oversight board
+dido----------designated intelligence disclosure official
+dii----------defense information infrastructure
+dirnsa----------director, national security agency
+dis----------defense investigative service
+disa----------defense information systems agency
+disn----------defense information systems network
+disp----------department of defense (dod) industrial security program
+ditscap----------department of defense (dod) information technology security certification and accreditation process
+dmdc----------defense manpower data center
+dmf----------data management facility
+dmns----------data management notification system
+dms----------data management system
+dms----------defense messaging system
+dni----------director of national intelligence
+dni----------director of naval intelligence
+dodiis----------department of defense intelligence information system
+dodis----------department of defense information system
+dos----------denial of service
+dos----------disk operating system
+dram----------dynamic random-access memory
+drb----------defense resources board
+drmo----------defense reutilization management office
+ds----------direct support
+dsa----------designated security authority
+dsb----------defensive security brief
+dsca----------defense security cooperation agency
+dsec----------director of security
+dsmc----------defense systems management college
+dsn----------defense switched network
+dss----------defense security service
+dsscs----------defense special security communication system
+dss-pic----------dss personnel investigations center
+dsss----------defense special security system
+dt&----------development test and evaluation
+dtic----------defense technical information center
+dtm----------data-transmission media
+dtsa----------defense technology security administration
+dvd----------digital video disk
+ea----------electronic attack
+epits----------essential program information, technologies and systems
+eprom----------erasable programmable read-only memory
+epsq----------electronic personnel security questionnaire
+es----------electronic surveillance
+ess----------electronic security system
+et----------electronic transmission
+etz----------equipment transient electromagnetic pulse emanation standard (tempest) zone
+ew----------electronic warfare
+ews----------electronic warfare support
+fafsa----------free application for federal student aid
+fbis----------foreign broadcast information service
+fcip----------foreign counterintelligence program
+fcl----------facility security clearance
+fema----------federal emergency management agency only memory
+fi----------foreign intelligence
+fids----------facility intrusion detection system
+fie----------foreign intelligence entity
+fis----------foreign intelligence services
+fisa----------foreign intelligence surveillance act
+fisd----------federal investigative services division
+fisint----------foreign instrumentation signals intelligence
+fisma----------federal information security management act
+fit----------foreign inspection team
+fiu----------field investigative unit
+fm----------frequency-modulated
+fn----------foreign national
+foia----------freedom of information act
+foia/pa----------freedom of information act/privacy act
+fram----------ferroelectric random-access memory
+frd----------formerly restricted data
+ftz----------facilities transient electromagnetic pulse emanation standard (tempest) zone
+g2----------assistant chief of staff, g2 intelligence
+g-2----------staff intelligence officer
+gdip----------general defense intelligence programs
+geoint----------geospatial intelligence
+ghz----------gigahertz
+gig----------global information grid
+gii----------global information infrastructure
+gsc----------government security committee
+gsoia----------general security of information agreement
+gsomia----------general security of military information agreement
+hdmi----------high-definition multimedia interface
+hipaa----------health insurance portability and accountability act of 1996
+hois----------hostile intelligence services
+hpsci----------house permanent select committee on intelligence
+hsa----------homeland security act
+humint----------human intelligence
+hz----------hertz
+ia----------information assurance
+ia----------intelligence activity
+iaa----------interim access authorization
+iacse----------interagency advisory committee on security equipment
+icd----------intelligence community directive
+icp----------initial control point
+id----------identification
+idc----------international data center
+ide----------intrusion detection equipment
+ids----------intrusion detection system
+ieid----------international exchange of infrasound data
+ierd----------international exchange of radionuclide data
+iesd----------international exchange of seismological data
+ioss----------interagency operations security (opsec) support staff
+ip----------internet protocol
+ipb----------intelligence preparation of the battlefield
+ipsac----------interagency security classification appeals panel
+ir----------infrared
+irm----------information resource management
+is----------information system
+isa----------international security agreement
+iscom----------naval investigative service command
+isd----------information storage device
+isd----------inspectable space determination
+isdn----------integrated services digital network
+isfd----------industrial security facilities database
+isoo----------information security oversight office
+ispg----------intelligence programs support group
+isrp----------information systems requirements package
+iss----------information systems security
+iss----------inspection support staff
+iss----------integrated safeguards subgroup
+isse----------information system security engineer
+issm----------information systems security manager
+isso----------information systems security officer
+issp----------information systems security professional
+issr----------information systems security representative
+iswg----------industrial security working group
+it----------information technology
+itab----------information technology acquisition board
+itac----------intelligence and threat analysis center
+j2----------intelligence directorate, joint command
+jcita----------joint counterintelligence training academy
+jcs----------joint chiefs of staff
+jmic----------joint military intelligence college
+jmip----------joint military intelligence programs
+jmitc----------joint military intelligence training center
+jpas----------joint personnel adjudication system
+jroc----------joint requirements oversight council
+jsaiwg----------joint sensitive compartmented
+information (sci) accreditation/inspection working group
+j-siids----------joint services interior intrusion detection system
+jwics----------joint worldwide intelligence communication system
+khz----------kilohertz
+laa----------limited access authorization
+lac----------local agency check
+lan----------local area network
+lbi----------limited background investigation
+lbip----------limited background investigation plus current national agency check
+lbix----------limited background investigation expanded
+le----------law enforcement
+lea----------law enforcement agency
+lfc----------local files check
+limdis----------limited dissemination
+limdis----------limited distribution
+ln----------local network
+masint----------measurement and signature intelligence
+mi----------military intelligence
+nacic----------national counterintelligence center
+nato----------north atlantic treaty organization (nato) secret atomal
+nccic----------national cybersecurity and communications integration center
+ncic----------national crime information center
+ncral----------national cyber risk alert level
+ncs----------national communications system
+ncs----------national cryptologic school
+ncsc----------national computer security center
+ncsd----------national cyber security division
+net----------network
+netmgr----------network manager
+netops----------network operations
+nfib----------national foreign intelligence board
+nfip----------national foreign intelligence program
+nga----------national geospatial-intelligence agency
+ngic----------national ground intelligence center
+nii----------national information infrastructure
+niprnet----------non-secure/unclassified internet protocol router network
+nis----------network information system
+nato----------north atlantic treaty organization (nato) secret
+nsa/css----------national security agency/central security service
+nsc----------national security council
+nsi----------national security information
+oco----------offensive cyberspace operations
+odci----------office of the director of central intelligence
+odni----------office of the director of national intelligence
+ois----------office information system
+pds----------practice dangerous to security
+pds----------protected distribution system
+pds----------public domain software
+ped----------portable electronic device
+pem----------program element monitor
+photint----------photographic intelligence
+pi----------police intelligence
+pi----------preliminary inquiry
+pid----------personnel identification data
+pii----------personally identifiable information
+prom----------programmable read-only memory
+propin----------proprietary information
+ps----------physical security
+ram----------random-access memory
+rd----------restricted data
+rf----------radio frequency
+rfi----------radio frequency interference
+rfi----------representative of a foreign interest
+rfid----------radio-frequency identification
+rii----------relevant information and intelligence
+rom----------read-only memory
+s----------secret
+s&t----------science and technology
+s2----------intelligence officer, u.s. army
+sa----------system administrator
+sacs----------security access control systems
+saes----------security awareness and education
+sar----------special access required
+sce----------service cryptologic element
+scg----------security classification guide
+sci----------sensitive compartmented information
+scif----------sensitive compartmented information facility
+sii----------suitability/security investigation index
+sio----------senior intelligence officer
+sisr----------signals intelligence security regulation
+srtm----------security requirements traceability matrix
+ssdc----------space and strategic defense command
+sse----------system security engineering
+ssem----------system security engineering
+ssii----------suitability/security investigations index
+ssl----------secure socket layer
+ssm----------site security manager
+ssm----------system security manager
+ssmp----------system security management plan
+tiara----------tactical intelligence and related activities
+tid----------tamper indicating device
+tims----------treaty information management system
+tiss----------telecommunications and automated information systems security
+tmo----------technology management office
+u----------unclassified
+uaa----------uncontrolled access area
+ucni----------unclassified controlled nuclear information
+ud----------unauthorized disclosure
+usacidu----------united states army criminal investigation command
+usaf----------united states air force
+ussan----------united states security authority/north atlantic treaty organization (nato)
+ussid----------united states signals intelligence directive
