@@ -1,5 +1,9 @@
 import os
+import boto3
+from time import sleep
 from typing import List
+from dotenv import load_dotenv
+load_dotenv()
 
 root = os.getcwd()
 
@@ -8,6 +12,7 @@ def post_process(phrase: str) -> str:
     return phrase
 
 
+transcripts = {}
 abbreviations = {}
 flipped = {}
 company_acronyms = {}
@@ -15,19 +20,21 @@ words_to_emphasize = {}
 _words_to_emphasize = ['InfiniBand', 'on-premises']
 with open(os.path.join(root, 'apache_projects.txt')) as f:
     _words_to_emphasize.extend([x.replace('\n', '').strip() for x in f.readlines()])
-languages = ["javascript", "python", "java", "c++", "swift", "typescript", "go programming language", "sql", "ruby", "r programming language", "php", "perl", "kotlin", "c#", "rust", "scheme", "erlang", "scala", "elixir", "haskell"]
+languages = ["javascript", "python", "java", "swift", "typescript", "go programming language", "sql", "ruby", "r programming language", "php", "perl", "kotlin", "rust", "scheme", "erlang", "scala", "elixir", "haskell"]
 _words_to_emphasize.extend(languages)
 _special_words = {
-        'hbase': '<say-as interpret-as="characters">h</say-as> base',
-        '99.99%': 'four nines',
-        '99.999%': 'five nines',
-        '99.9999%': 'six nines',
-        '99.99999%': 'seven nines',
-        '99.999999%': 'eight nines',
-        '99.9999999%': 'nine nines',
-        '99.99999999%': 'ten nines',
-        '99.999999999%': 'eleven nines',
-        '99.9999999999%': 'twelve nines',
+        'hbase': '<emphasis><say-as interpret-as="characters">h</say-as> base</emphasis>',
+        'c#': '<emphasis><say-as interpret-as="characters">c</say-as> sharp</emphasis>',
+        'c++': '<emphasis><say-as interpret-as="characters">c</say-as> plus plus</emphasis>',
+        '99.99%': '<emphasis>four nines</emphasis>',
+        '99.999%': '<emphasis>five nines</emphasis>',
+        '99.9999%': '<emphasis>six nines</emphasis>',
+        '99.99999%': '<emphasis>seven nines</emphasis>',
+        '99.999999%': '<emphasis>eight nines</emphasis>',
+        '99.9999999%': '<emphasis>nine nines</emphasis>',
+        '99.99999999%': '<emphasis>ten nines</emphasis>',
+        '99.999999999%': '<emphasis>eleven nines</emphasis>',
+        '99.9999999999%': '<emphasis>twelve nines</emphasis>',
         }
 special_words = {}
 _stopwords = ["i", "me", "my", "myself", "we", "our", "ours", "ourselves", "you", "your", "yours", "yourself", "yourselves", "he", "him", "his", "himself", "she", "her", "hers", "herself", "it", "its", "itself", "they", "them", "their", "theirs", "themselves", "what", "which", "who", "whom", "this", "that", "these", "those", "am", "is", "are", "was", "were", "be", "been", "being", "have", "has", "had", "having", "do", "does", "did", "doing", "a", "an", "the", "and", "but", "if", "or", "because", "as", "until", "while", "of", "at", "by", "for", "with", "about", "against", "between", "into", "through", "during", "before", "after", "above", "below", "to", "from", "up", "down", "in", "out", "on", "off", "over", "under", "again", "further", "then", "once", "here", "there", "when", "where", "why", "how", "all", "any", "both", "each", "few", "more", "most", "other", "some", "such", "no", "nor", "not", "only", "own", "same", "so", "than", "too", "very", "s", "t", "can", "will", "just", "don", "should", "now"]
@@ -147,12 +154,14 @@ for filename in os.listdir(os.path.join(root, company)):
         line_arr: List[str] = line.split(' ')
         line_arr_lower: List[str] = line_lower.split(' ')
         for i, val in enumerate(line_arr_lower):
+            # ignore common stop words in English language
             if val in stopwords:
                 continue
-            if val in words_to_emphasize:
-                line_arr[i] = emphasize(val)
-            elif val in special_words:
+
+            if val in special_words:
                 line_arr[i] = special_words[val]
+            elif val in words_to_emphasize:
+                line_arr[i] = emphasize(val)
             elif val in company_acronyms:
                 line_arr[i] = spell_out(val)
             elif val in abbreviations:
@@ -165,3 +174,20 @@ for filename in os.listdir(os.path.join(root, company)):
         lines.insert(0, '\n\n<speak><amazon:auto-breaths>')
         lines.append('</amazon:auto-breaths></speak>\n\n')
         f.writelines(lines)
+        transcripts[filename] = ''.join(lines)
+
+target = 'azure_event_hubs_apache_kafka.txt'
+output_s3_key_prefix = target.replace('.txt', '')
+polly = boto3.Session(region_name='ap-northeast-2').client('polly')
+response = polly.start_speech_synthesis_task(
+        VoiceId='Joanna', 
+        OutputS3BucketName=os.getenv('OUTPUT_S3_BUCKET_NAME'),
+        OutputS3KeyPrefix=output_s3_key_prefix,
+        OutputFormat='mp3', 
+        Text=transcripts[target],
+        TextType='ssml')
+task_id = response['SynthesisTask']['TaskId']
+
+
+
+
